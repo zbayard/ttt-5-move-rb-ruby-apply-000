@@ -12,4 +12,6 @@ def input_to_index(user_input)
 end
 
 def move(index , player = "X")
+  @board[index] = player
 end
+
