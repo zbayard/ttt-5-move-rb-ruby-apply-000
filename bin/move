@@ -12,4 +12,4 @@ index = input_to_index(user_input)
 
 move(board , index , player = "X")
 
-display_board #I see no arguments passed here
+display_board(board)
